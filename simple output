@@ -1,0 +1,127 @@
+patrickzhang@PatrickdeMacBook-Pro Part2 % java -jar A3.jar
+The likelihood probability table :
+             P(F=1 | C = 1)           P(F=0 | C = 1)          P(F=1 | C = 0)       P(F=0 | C = 0)
+attribute0  0.6730769230769231     0.3269230769230769   0.35333333333333333     0.6466666666666666
+attribute1  0.5961538461538461     0.40384615384615385   0.5733333333333334     0.4266666666666667
+attribute2  0.46153846153846156     0.5384615384615384   0.34     0.66
+attribute3  0.6153846153846154     0.38461538461538464   0.3933333333333333     0.6066666666666667
+attribute4  0.5     0.5   0.3333333333333333     0.6666666666666666
+attribute5  0.36538461538461536     0.6346153846153846   0.4666666666666667     0.5333333333333333
+attribute6  0.7884615384615384     0.21153846153846154   0.5     0.5
+attribute7  0.7692307692307693     0.23076923076923078   0.3466666666666667     0.6533333333333333
+attribute8  0.34615384615384615     0.6538461538461539   0.24     0.76
+attribute9  0.6730769230769231     0.3269230769230769   0.2866666666666667     0.7133333333333334
+attribute10  0.6730769230769231     0.3269230769230769   0.58     0.42
+attribute11  0.7884615384615384     0.21153846153846154   0.3333333333333333     0.6666666666666666
+isSpam  1.0     0.0   0.0     1.0
+
+--------------------------------------------------------------
+Here is the Naive Bayes classification on spamLabelled.dat , for testing performance purpose
+There are 174.0 out of 200 correct.
+acc =0.87
+
+--------------------------------------------------------------
+Here is the Naive Bayes classification on spamUnlabelled.dat:
+
+For instance 1
+The posterior probability of P(C=1 | f) =
+2.8203300896645474E-6
+The posterior probability of P(C=0 | f) =
+4.646011180823523E-4
+
+Because P(C=0 | all attributes) > P(C=1 | all attributes), so 
+Instance 1 is classified as 'is not Spam'
+--------------------------------------------------------------
+
+For instance 2
+The posterior probability of P(C=1 | f) =
+5.419093286372262E-5
+The posterior probability of P(C=0 | f) =
+4.047343858358767E-5
+
+Because P(C=1 | all attributes) > P(C=0 | all attributes), so 
+Instance 2 is classified as 'is Spam'
+--------------------------------------------------------------
+
+For instance 3
+The posterior probability of P(C=1 | f) =
+1.921475887488205E-4
+The posterior probability of P(C=0 | f) =
+1.2245217568518894E-4
+
+Because P(C=1 | all attributes) > P(C=0 | all attributes), so 
+Instance 3 is classified as 'is Spam'
+--------------------------------------------------------------
+
+For instance 4
+The posterior probability of P(C=1 | f) =
+4.694895352268651E-6
+The posterior probability of P(C=0 | f) =
+6.137559386555348E-4
+
+Because P(C=0 | all attributes) > P(C=1 | all attributes), so 
+Instance 4 is classified as 'is not Spam'
+--------------------------------------------------------------
+
+For instance 5
+The posterior probability of P(C=1 | f) =
+6.183611426537246E-5
+The posterior probability of P(C=0 | f) =
+8.76882105542243E-5
+
+Because P(C=0 | all attributes) > P(C=1 | all attributes), so 
+Instance 5 is classified as 'is not Spam'
+--------------------------------------------------------------
+
+For instance 6
+The posterior probability of P(C=1 | f) =
+6.11086305681328E-5
+The posterior probability of P(C=0 | f) =
+4.305853373976855E-5
+
+Because P(C=1 | all attributes) > P(C=0 | all attributes), so 
+Instance 6 is classified as 'is Spam'
+--------------------------------------------------------------
+
+For instance 7
+The posterior probability of P(C=1 | f) =
+3.0932652596320843E-6
+The posterior probability of P(C=0 | f) =
+3.3576459988464457E-4
+
+Because P(C=0 | all attributes) > P(C=1 | all attributes), so 
+Instance 7 is classified as 'is not Spam'
+--------------------------------------------------------------
+
+For instance 8
+The posterior probability of P(C=1 | f) =
+6.26905769352212E-5
+The posterior probability of P(C=0 | f) =
+3.8065842127886084E-4
+
+Because P(C=0 | all attributes) > P(C=1 | all attributes), so 
+Instance 8 is classified as 'is not Spam'
+--------------------------------------------------------------
+
+For instance 9
+The posterior probability of P(C=1 | f) =
+1.9214758874882046E-4
+The posterior probability of P(C=0 | f) =
+3.5634648612222245E-5
+
+Because P(C=1 | all attributes) > P(C=0 | all attributes), so 
+Instance 9 is classified as 'is Spam'
+--------------------------------------------------------------
+
+For instance 10
+The posterior probability of P(C=1 | f) =
+1.9355206497697885E-5
+The posterior probability of P(C=0 | f) =
+6.80873164303389E-4
+
+Because P(C=0 | all attributes) > P(C=1 | all attributes), so 
+Instance 10 is classified as 'is not Spam'
+--------------------------------------------------------------
+there are 4 spam emails and there are 6 emails not spam
+Finish
+patrickzhang@PatrickdeMacBook-Pro Part2 % 

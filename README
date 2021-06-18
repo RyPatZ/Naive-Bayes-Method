@@ -1,0 +1,13 @@
+
+Naive Bayes Method implimentation
+
+
+To run the code
+First of all, use terminal to get into the source directory
+
+Make sure that we are in the NB directory and data files are in the NB directory as well
+there is a executable jar file called A3.jar is within the directory 
+We enter the command below to run the jar file 
+
+java -jar A3.jar
+
